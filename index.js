@@ -4,11 +4,11 @@ let nyoq = []
 
 for (let narsa of letterSearch) {
     if(narsa.includes("n")){
-        nbor.push(narsa)
+        nbor.push(narsa);
     }else {
-         nyoq.push (narsa) 
+         nyoq.push (narsa); 
     }
 }
 
-console.log (nbor)
-console.log (nyoq)
+console.log (nbor);
+console.log (nyoq);
